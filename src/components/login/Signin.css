@@ -42,6 +42,22 @@
     width: 50%;
     border-radius: 6px;
     display: inline-block;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.signup{
+    color: green;
+    background-color: white;
+    border: none;
+    font-family:  'Poppins', sans-serif;
+    cursor: pointer;
+}
+.signup:hover{
+    color: rgb(127, 226, 127);
 }
 .icon{
     padding: 5px;
@@ -51,16 +67,34 @@
     height: 18px;
 }
 .facapple{
+    margin: -30px;
+    
     float: right;
     margin-right: 75px;
+    
+}
+.btn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
 }
 .element{
     padding: 20px;
     font-size: 12px;
+    margin: 2px;
+
 }
 .forget{
+    font-family:  'Poppins', sans-serif;
+    border: none;
+    background-color: white;
     float: right;
     color: green;
+    cursor: pointer;
+}
+.forget:hover{
+    color: darkgreen;
 }
 .input{
     padding: 10px;
@@ -79,4 +113,8 @@
     color: white;
     border: 1px solid #779341;
 
+}
+.submit:hover{
+    background-color: darkgreen;
+    cursor: pointer;
 }

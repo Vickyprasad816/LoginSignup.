@@ -10,24 +10,25 @@ function Signin() {
       <div className="container">
         <div className="content">
           <p>Welcome to Imagegallery</p>
-          <h1>Sign in</h1>
+          <h1 >Sign in</h1>
           <div className="left">
             <p>No Account ?</p>
-            <p style={{ color: 'green' }}>Sign up</p>
+            <button className='signup'>Sign up</button>
           </div>
           <div className="g-sign">
             <img src={google} alt='google' className='icon' />Sign in with google
           </div>
           <div className="facapple">
-            <img src={facebook} alt='facebook' className='icon' />
-            <img src={apple} alt='apple' className='icon' />
+            <button className='btn'><img src={facebook} alt='facebook' className='icon' /></button>
+            <button className='btn'><img src={apple} alt='apple' className='icon' /></button>
           </div>
           <div className="element">
             <label for="text"><b>Enter your username or email address</b></label><br/>
-            <input type="text" id="text" name="text"  className='input' placeholder='Username or email addreess'/><br />
+            <input type="text" id="text" name="text"  className='input' placeholder='Username or email addreess'/><br/></div>
+          <div className="element">
             <label for="password"><b>Enter your Password</b></label><br/>
             <input type="password" id="password" name="password" className='input'  placeholder='Password'/>
-            <span className='forget'>Forget password</span>
+            <button className='forget'>Forget password</button>
           </div>
         </div>
         <button className='submit'>Sign in</button>
